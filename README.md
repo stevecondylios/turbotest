@@ -1,24 +1,19 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+A simple app demonstrating a message index view with form that allows the view to update using turbo stream, which allows only certain elements to update (rather than whole page reload). 
 
-* Ruby version
+Based on the first 10-15 minutes of [this](https://www.youtube.com/watch?v=csvaYIaBYpw&list=PLdTytUiloS16epXsqHswpCUMND_rksjr4) superb tutorial. 
 
-* System dependencies
+More info on turbo streams and its methods here: https://turbo.hotwired.dev/handbook/streams
 
-* Configuration
 
-* Database creation
+Start app with `bin/dev`
 
-* Database initialization
+Visit: http://localhost:3000/messages
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+<img src="turbo_stream.gif">
 
-* Deployment instructions
 
-* ...
+
+
